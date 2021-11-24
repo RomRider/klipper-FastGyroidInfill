@@ -12,9 +12,10 @@ Eg:
 * Superslicer was planning a print to last 25h (65% of the print was gyroid infill)
 * it only took 14h using this postprocessing script. It would have taken more than 25h without.
 
-* This is the result of a 300mm/s @ 5k accel with this postprocessing script running with a standard SQV of 5 and 20 for infill only:
+* This is the result of printing the gyroid infill at 300mm/s with 5k accel with this postprocessing script with a standard SQV of 5 and 20 for infill only (Thanks to [@FlorentBroise](https://github.com/FlorentBroise) for the video):
 
-    ![fast_infill_video](docs/videos/fast_infill.mp4)
+  https://user-images.githubusercontent.com/21064206/143157216-e1710af4-2a71-4ac6-87cc-6bdec80aad45.mp4
+
 
 # How to use
 
