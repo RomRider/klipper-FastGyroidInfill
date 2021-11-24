@@ -43,7 +43,7 @@ You can update the SQV value for infill while it's printing by using the same co
 
 ## SuperSlicer
 
-1. Copy the [`fastGyroidInfill.py` file](superslicer/FastGyroidInfill.py) fomr the repository's superslicer folder in a folder on your computer where superslicer runs. Put it in a folder without any space.
+1. Copy the [`fastGyroidInfill.py` file](superslicer/FastGyroidInfill.py) from the repository's superslicer folder in a folder on your computer where superslicer runs. Put it in a folder without any space.
 1. Install Python (if you are using Windows, don't install python from the Microsoft Store, it won't work)
 1. Reference the post processing script into your superslicer configuration. Eg. for Windows:
     ![superslicer_config](docs/images/superslicer_config.png)
