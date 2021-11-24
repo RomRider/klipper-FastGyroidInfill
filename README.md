@@ -1,12 +1,20 @@
 # Fast Infill for Klipper
 
+:warning: Use at your own risk :warning:
+
 This is a set of postprocessing scripts for [Cura](https://ultimaker.com/software/ultimaker-cura) and [SuperSlicer](https://github.com/supermerill/SuperSlicer) to accelerate the gyroid infill printing speed leveraging [Klipper](https://www.klipper3d.org/)'s Square Corner Velocity (SQV) feature.
 
 It modifies the value of the SQV only for the infill keeping everything else default. Since the gyroid infill is made of curves, it prints slower by default because this is what the Square Corner Velocity feature does. Increasing this value too high for perimeters will remove details from your print.
 
 This is why, being able to apply a different SQV value for the infill specifically will massively accelerate your prints when you use the gyroid infill while keeping the crisps details on everything else!
 
-:warning: Use at your own risk :warning:
+Eg:
+* Superslicer was planning a print to last 25h (65% of the print was gyroid infill)
+* it only took 14h using this postprocessing script. It would have taken more than 25h without.
+
+* This is the result of a 300mm/s @ 5k accel with this postprocessing script running with a standard SQV of 5 and 20 for infill only:
+
+    ![fast_infill_video](docs/videos/fast_infill.mp4)
 
 # How to use
 
