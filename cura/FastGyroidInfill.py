@@ -40,7 +40,7 @@ class FastGyroidInfill(Script):
                 if line.startswith(";TYPE:FILL"):
                     lines.insert(lineIndex + 1, GCODE_INFILL_SQV)
                     inInfill = True
-                elif (line.startswith(";TYPE") or line.startswith(";MESH:") or line.startswith(";LAYER:")) and inInfill:
+                elif (line.startswith(";TYPE") or line.startswith(";LAYER:")) and inInfill:
                     lines.insert(lineIndex + 1, GCODE_NORMAL_SQV)
                     inInfill = False
 
